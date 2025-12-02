@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Ankur Yadav (ANK) - Full Stack Developer & Security Enthusiast</title>
-    <meta name="description" content="Official portfolio of Ankur Yadav (ANK), also known as ank09yadav. Full-Stack MERN Developer, Android Developer, and Cyber Security Researcher based in Prayagraj.">
-    <meta name="keywords" content="ankur yadav, ank, ank09yadav, ank0119yadav, full stack developer, android developer, cyber security, MERN stack, portfolio, prayagraj developer, BCA student, nextjs, typescript, postgresql">
+    <meta name="description" content="Official portfolio of Ankur Yadav (ANK). Full-Stack MERN Developer and Cyber Security Researcher based in Prayagraj.">
+    <meta name="keywords" content="ankur yadav, ank, ank09yadav, full stack developer, cyber security, MERN stack, portfolio">
     <meta name="author" content="Ankur Yadav">
     <meta name="robots" content="index, follow">
 
@@ -17,14 +17,6 @@
       "name": "Ankur Yadav",
       "alternateName": ["ANK", "ank09yadav", "ank0119yadav", "Ankur"],
       "jobTitle": "Full Stack Developer",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Prayagraj",
-        "addressRegion": "Uttar Pradesh",
-        "postalCode": "211003",
-        "addressCountry": "India"
-      },
-      "alumniOf": "Ewing Christian College",
       "url": "https://ankur-yadav-portfolio.netlify.app",
       "sameAs": [
         "https://www.linkedin.com/in/ankuryadavank09012004",
@@ -48,6 +40,10 @@
         }
     </script>
 
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
         
@@ -62,10 +58,10 @@
         /* 3D & Theme Styles */
         .card-3d, .skill-pill {
             transition: all 0.2s ease;
-            border-bottom: 4px solid #e2e8f0; /* Light mode depth */
+            border-bottom: 4px solid #e2e8f0;
         }
         .dark .card-3d, .dark .skill-pill {
-            border-bottom: 4px solid #1e293b; /* Dark mode depth */
+            border-bottom: 4px solid #1e293b;
         }
         .card-3d:hover, .skill-pill:hover {
             transform: translateY(-2px);
@@ -82,6 +78,17 @@
             color: white;
             border-bottom: 2px solid #312e81;
             transform: translateY(1px);
+        }
+
+        /* Skill Pill Layout */
+        .skill-pill {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem; /* Space between icon and text */
+        }
+        .skill-pill i {
+            font-size: 1.5rem; /* Icon size */
         }
     </style>
 </head>
@@ -157,7 +164,7 @@
                 <div>
                     <h2 class="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-4">Professional Summary</h2>
                     <p class="text-slate-700 dark:text-slate-300 leading-relaxed text-lg">
-                        I am <strong>Ankur Yadav</strong> (often engaging online as <strong>ANK</strong> or <strong>ank09yadav</strong>), a detail-oriented BCA final-year student with a strong foundation in <span class="text-indigo-600 dark:text-indigo-400 font-semibold">full-stack MERN development</span>, software engineering, and <span class="text-indigo-600 dark:text-indigo-400 font-semibold">cybersecurity</span>. I recently expanded my stack to include <span class="text-indigo-600 dark:text-indigo-400 font-semibold">Next.js and TypeScript</span>. I have a proven ability to rapidly build and deploy functional applications, demonstrated through a 3-month cybersecurity internship and a diverse portfolio of 10+ projects.
+                        I am <strong>Ankur Yadav</strong> (often engaging online as <strong>ANK</strong> or <strong>ank09yadav</strong>), a detail-oriented BCA final-year student with a strong foundation in <span class="text-indigo-600 dark:text-indigo-400 font-semibold">full-stack MERN development</span>, software engineering, and <span class="text-indigo-600 dark:text-indigo-400 font-semibold">cybersecurity</span>. I recently expanded my stack to include <span class="text-indigo-600 dark:text-indigo-400 font-semibold">Next.js and TypeScript</span>.
                     </p>
                 </div>
             </div>
@@ -182,53 +189,138 @@
 
             <div id="skill-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
                 
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="lang">JavaScript</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="lang">TypeScript</div> <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="lang">Java</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="lang">C++</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="lang">C</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="lang">C#</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="lang">Kotlin</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="lang">SQL</div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="lang">
+                    <i class="devicon-javascript-plain colored"></i> <span>JavaScript</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="lang">
+                    <i class="devicon-typescript-plain colored"></i> <span>TypeScript</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="lang">
+                    <i class="devicon-java-plain colored"></i> <span>Java</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="lang">
+                    <i class="devicon-cplusplus-plain colored"></i> <span>C++</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="lang">
+                    <i class="devicon-c-plain colored"></i> <span>C</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="lang">
+                    <i class="devicon-csharp-plain colored"></i> <span>C#</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="lang">
+                    <i class="devicon-kotlin-plain colored"></i> <span>Kotlin</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="lang">
+                    <i class="devicon-azuresqldatabase-plain colored"></i> <span>SQL</span>
+                </div>
 
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">Next.js</div> <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">React.js</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">Redux</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">HTML5</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">CSS3</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">Socket.io</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">React Router</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">3.js</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">React Player</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">Node.js</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">Express.js</div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">
+                    <i class="devicon-nextjs-original-wordmark colored dark:text-white"></i> <span>Next.js</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">
+                    <i class="devicon-react-original colored"></i> <span>React.js</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">
+                    <i class="devicon-redux-original colored"></i> <span>Redux</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">
+                    <i class="devicon-html5-plain colored"></i> <span>HTML5</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">
+                    <i class="devicon-css3-plain colored"></i> <span>CSS3</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">
+                    <i class="devicon-socketio-original colored dark:text-white"></i> <span>Socket.io</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">
+                    <i class="devicon-threejs-original colored dark:text-white"></i> <span>3.js</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">
+                    <i class="devicon-nodejs-plain colored"></i> <span>Node.js</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="web">
+                    <i class="devicon-express-original colored dark:text-white"></i> <span>Express.js</span>
+                </div>
 
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="db">MongoDB</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="db">PostgreSQL</div> <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="db">MySQL</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="db">SQL (general)</div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="db">
+                    <i class="devicon-mongodb-plain colored"></i> <span>MongoDB</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="db">
+                    <i class="devicon-postgresql-plain colored"></i> <span>PostgreSQL</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="db">
+                    <i class="devicon-mysql-plain colored"></i> <span>MySQL</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="db">
+                    <i class="fas fa-database text-blue-500"></i> <span>SQL (Gen)</span>
+                </div>
 
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="platform">MERN Stack</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="platform">.NET Framework</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="platform">Android (Kotlin)</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="platform">Java AWT/Swings</div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="platform">
+                    <i class="devicon-react-original colored"></i> <span>MERN Stack</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="platform">
+                    <i class="devicon-dotnetcore-plain colored"></i> <span>.NET</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="platform">
+                    <i class="devicon-android-plain colored"></i> <span>Android</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="platform">
+                    <i class="devicon-java-plain colored"></i> <span>Java AWT</span>
+                </div>
 
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="security">Network Scanning</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="security">Vulnerability Assessment</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="security">Authentication Bypass</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="security">OWASP Principles</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="security">Nmap</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="security">John the Ripper</div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="security">
+                    <i class="fas fa-network-wired text-green-500"></i> <span>Scanning</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="security">
+                    <i class="fas fa-shield-alt text-red-500"></i> <span>Vuln Assess</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="security">
+                    <i class="fas fa-lock-open text-orange-500"></i> <span>Auth Bypass</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="security">
+                    <i class="fas fa-bug text-indigo-500"></i> <span>OWASP</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="security">
+                    <i class="fas fa-radar text-blue-600"></i> <span>Nmap</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="security">
+                    <i class="fas fa-terminal text-gray-600 dark:text-gray-300"></i> <span>John The Ripper</span>
+                </div>
 
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="tools">Git</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="tools">GitHub</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="tools">Linux/CLI</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="tools">VS Code</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="tools">IntelliJ Idea</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="tools">Android Studio</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="tools">XAMPP</div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="tools">
+                    <i class="devicon-git-plain colored"></i> <span>Git</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="tools">
+                    <i class="devicon-github-original colored dark:text-white"></i> <span>GitHub</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="tools">
+                    <i class="devicon-linux-plain colored"></i> <span>Linux</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="tools">
+                    <i class="devicon-vscode-plain colored"></i> <span>VS Code</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="tools">
+                    <i class="devicon-intellij-plain colored"></i> <span>IntelliJ</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="tools">
+                    <i class="devicon-androidstudio-plain colored"></i> <span>Android Studio</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="tools">
+                    <i class="fas fa-server text-orange-600"></i> <span>XAMPP</span>
+                </div>
 
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="sw">MS Office</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="sw">Tally ERP9</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="sw">CorelDraw</div>
-                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="sw">Photoshop</div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="sw">
+                    <i class="devicon-windows8-original colored"></i> <span>MS Office</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="sw">
+                    <i class="fas fa-chart-bar text-green-600"></i> <span>Tally ERP9</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="sw">
+                    <i class="fas fa-pen-nib text-purple-600"></i> <span>CorelDraw</span>
+                </div>
+                <div class="skill-pill bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md text-center font-semibold text-slate-700 dark:text-slate-200 cursor-default" data-category="sw">
+                    <i class="devicon-photoshop-plain colored"></i> <span>Photoshop</span>
+                </div>
 
             </div>
         </section>
